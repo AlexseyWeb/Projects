@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () =>{
    let btnRename = () => btnCall.textContent = '+7 (930) 840-40-04'
    const btnUp = document.querySelector('#upbutton')
 
-   //Добавил обработчик события если указатель мыши пройдет
+   // обработчик события если указатель мыши пройдет
     btnCall.addEventListener('mouseover', (e) =>{
         e.preventDefault()
         btnRename()
