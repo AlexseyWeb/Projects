@@ -3,7 +3,7 @@
 /* Функция для работы с консоли разработчика */
 
 
-export default function clu(string = 'not text', css = 'color:orange; text-shadow: 10px 10px 10px white; font-size:20px') {
+function clu(string = 'not text', css = 'color:orange; text-shadow: 10px 10px 10px white; font-size:20px') {
     console.log(`%c ${string}`, `${css};`)
 }
 
