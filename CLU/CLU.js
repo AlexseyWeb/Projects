@@ -2,8 +2,9 @@
 
 /* Функция для работы с консоли разработчика */
 
+const css = 'color:orange; text-shadow: 10px 10px 10px white; font-size:20px'
 
-function clu(string = 'not text', css = 'color:orange; text-shadow: 10px 10px 10px white; font-size:20px') {
+function clu(string = 'not text', css ) {
     console.log(`%c ${string}`, `${css};`)
 }
 
