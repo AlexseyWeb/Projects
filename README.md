@@ -1,2 +1,1 @@
 # learning-frontend
-Изучаю frontend 
