@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картины</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="logo-text">
+            Картины: Нажмите клавишу ESC
+        </h1>
+    </header>
+    <main class="main-content">
+        <ul class="thumbnail-list">
+            <li class="thumbnail-item">
+                <a href="img/1.jpg" data-image-role="trigger" data-image-title="Мари Камарго" data-image-url="img/1.jpg">
+                    <img class="thumbnail-image" src="img/1.jpg" alt="1">
+                    <span class="thumbnail-title">Николас Ланкре,<br> "Мари Камарго", 1730 г.</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/2.jpg" data-image-role="trigger" data-image-title="Клод Моне" data-image-url="img/2.jpg">
+                    <img class="thumbnail-image" src="img/2.jpg" alt="2">
+                    <span class="thumbnail-title">Клод Моне<br> около пруда с водяными лилиями. 1910.</span>
+                </a>
+            </li>
+            <li class="thumbnail-item" data-image-role="trigger" data-image-title="Тройной женский портрет" data-image-url="img/3.jpg">
+                <a href="img/3.jpg">
+                    <img class="thumbnail-image" src="img/3.jpg" alt="3">
+                    <span class="thumbnail-title">Эдвин Ландсир,<br>
+                        "Тройной женский портрет", 1838г.</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/4.jpg" data-image-role="trigger" data-image-title="Нищий на пригорке" data-image-url="img/4.jpg">
+                    <img class="thumbnail-image" src="img/4.jpg" alt="4">
+                    <span class="thumbnail-title">Рембрандт Харменс ван Рейн <br>"Нищий на пригорке". 1630г. </span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/5.jpg" data-image-role="trigger" data-image-title="Дама в голубом" data-image-url="img/5.jpg">
+                    <img class="thumbnail-image" src="img/5.jpg" alt="5">
+                    <span class="thumbnail-title">Камиль Коро<br> Дама в голубом 1874г.</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/6.jpg" data-image-role="trigger" data-image-title="Признание в любви (фрагмент)" data-image-url="img/6.jpg">
+                    <img class="thumbnail-image" src="img/6.jpg" alt="6">
+                    <span class="thumbnail-title">Илья Ефимович Репин<br> Признание в любви (фрагмент), 1889-1897</span>
+                </a>
+            </li>
+
+        </ul>
+        <div class="detail-image-container">
+            <div class="detail-image-frame" data-image-role="frame">
+                <img src="img/1.jpg" alt="First" class="detail-image" data-image-role="target">
+                <span class="detail-image-title" data-image-role="title">Мари Камарго</span>
+            </div>
+
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
